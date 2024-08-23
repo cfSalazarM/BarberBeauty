@@ -1,0 +1,81 @@
+<app-header-user></app-header-user>
+<div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+      
+      <div class="px-40 flex flex-1 justify-center py-5">
+        <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+          <h1 class="text-[#111518] tracking-light text-[32px] font-bold leading-tight px-4 text-center pb-3 pt-6">Bienvenido a Barber&Beauty</h1>
+          <div class="flex px-4 py-3">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 flex-1 bg-transparent text-[#111518] gap-2 pl-4 text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <div class="text-[#111518]" data-icon="AppleLogo" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M223.3,169.59a8.07,8.07,0,0,0-2.8-3.4C203.53,154.53,200,134.64,200,120c0-17.67,13.47-33.06,21.5-40.67a8,8,0,0,0,0-11.62C208.82,55.74,187.82,48,168,48a72.2,72.2,0,0,0-40,12.13,71.56,71.56,0,0,0-90.71,9.09A74.63,74.63,0,0,0,16,123.4a127.06,127.06,0,0,0,40.14,89.73A39.8,39.8,0,0,0,83.59,224h87.68a39.84,39.84,0,0,0,29.12-12.57,125,125,0,0,0,17.82-24.6C225.23,174,224.33,172,223.3,169.59Zm-34.63,30.94a23.76,23.76,0,0,1-17.4,7.47H83.59a23.82,23.82,0,0,1-16.44-6.51A111.14,111.14,0,0,1,32,123,58.5,58.5,0,0,1,48.65,80.47,54.81,54.81,0,0,1,88,64h.78A55.45,55.45,0,0,1,123,76.28a8,8,0,0,0,10,0A55.44,55.44,0,0,1,168,64a70.64,70.64,0,0,1,36,10.35c-13,14.52-20,30.47-20,45.65,0,23.77,7.64,42.73,22.18,55.3A105.82,105.82,0,0,1,188.67,200.53ZM128.23,30A40,40,0,0,1,167,0h1a8,8,0,0,1,0,16h-1a24,24,0,0,0-23.24,18,8,8,0,1,1-15.5-4Z"
+                  ></path>
+                </svg>
+              </div>
+              <span class="truncate">Continue with Apple</span>
+            </button>
+          </div>
+          <div class="flex px-4 py-3">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 flex-1 bg-transparent text-[#111518] gap-2 pl-4 text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <div class="text-[#111518]" data-icon="FacebookLogo" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                  ></path>
+                </svg>
+              </div>
+              <span class="truncate">Continue with Facebook</span>
+            </button>
+          </div>
+          <div class="flex px-4 py-3">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 flex-1 bg-transparent text-[#111518] gap-2 pl-4 text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <div class="text-[#111518]" data-icon="GoogleLogo" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M224,128a96,96,0,1,1-21.95-61.09,8,8,0,1,1-12.33,10.18A80,80,0,1,0,207.6,136H128a8,8,0,0,1,0-16h88A8,8,0,0,1,224,128Z"></path>
+                </svg>
+              </div>
+              <span class="truncate">Continue with Google</span>
+            </button>
+          </div>
+          <p class="text-[#111518] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">Or use your email address</p>
+          <div class="flex max-w-[480px] flex-1 flex-wrap items-end gap-4 px-4 py-3">
+            <label class="flex flex-col min-w-40 flex-1">
+              <input
+                placeholder="Email"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dbe1e6] bg-white focus:border-[#dbe1e6] h-14 placeholder:text-[#60778a] p-[15px] text-base font-normal leading-normal"
+                value=""
+              />
+            </label>
+          </div>
+          <div class="flex max-w-[480px] flex-1 flex-wrap items-end gap-4 px-4 py-3">
+            <label class="flex flex-col min-w-40 flex-1">
+              <input
+                placeholder="Password"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dbe1e6] bg-white focus:border-[#dbe1e6] h-14 placeholder:text-[#60778a] p-[15px] text-base font-normal leading-normal"
+                value=""
+              />
+            </label>
+          </div>
+          <div class="flex px-4 py-3">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 flex-1 bg-[#2094f3] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Iniciar Session</span>
+            </button>
+          </div>
+          <p class="text-[#60778a] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">By continuing, you agree to Groomio's</p>
+          <p class="text-[#60778a] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">Terms of Service and acknowledge you've read our</p>
+          <p class="text-[#60778a] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">Privacy Policy.</p>
+          <p class="text-[#60778a] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">You may receive SMS notifications from us and can opt out at any time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
